@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+:root{
+--Soft-violet:hsl(273, 75%, 66%);
+--Soft-blue:hsl(240, 73%, 65%);
+--Very-dark-grayish-blue: hsl(237, 12%, 33%);
+--Dark-grayish-blue: hsl(240, 6%, 50%);
+--Light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+body{
+
+background:linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container{
+
+background: white;
+display: grid;
+grid-template-columns: 338px;
+grid-template-rows: 123px auto;
+justify-content: center;
+align-items: center;
+margin: 25px;
+border-radius: 18px;
+margin-top: 150px;
+margin-bottom: 98px;
+
+
+}
+
+.textos{
+
+text-align: initial;
+display: flex;
+flex-direction: column; 
+justify-content: space-between;
+padding: 5%;
+font-size: 14px;
+}
+
+.Imagen1{
+width: 74%;
+position: relative;
+bottom: 27px;
+
+}
+
+.Imagen2{
+position: relative;
+bottom: 100px;
+width: 74%;
+
+}
+
+.encabezadoImagen{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq{
+
+text-align: center;
+margin-bottom: 10px;
+font-size: 37px;
+
+}
+
+.pregunta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.respuesta{
+
+    display: none;
+    margin-bottom: 5%;
+    font-weight: normal;
+    color: black;
+    padding-right: 5%;
+    
+}
+
+.boton{ 
+height: 11px;
+width: 11px;
+margin-top: 5px;
+}
+
+.preguntas:hover{
+
+color: hsl(14, 88%, 65%)
+
+}
+
+.bold{
+
+font-weight: 600;
+
+
+}
+
+.flechaArriba{
+
+transform: rotate(180deg);
+
+}
+
+.on{
+display: flex;
+}
+
+.preguntas{
+
+border-bottom: 1px solid lightgray;
+}
+
+@media only screen and (min-width: 1000px){
+
+
+.container{
+
+background: white;
+display: grid;
+grid-template-columns: 400px 400px;
+grid-template-rows:auto;
+justify-content: center;
+align-items: center;
+margin: 25px;
+border-radius: 18px;
+width: 800px;
+margin-bottom: 0px;
+    
+}
+
+
+.Imagen1{
+position: relative;
+bottom: 27px;
+width: 378px;
+height: 325px;
+top:40px;
+right:84px;
+    
+    }
+    
+.Imagen2{
+position: relative;
+bottom: 67px;
+right: 95px;
+width: 322px;
+
+}
+
+.textos{
+padding-right: 77px;
+}
+
+.faq{
+text-align: initial;
+
+}
+
+
+
+}
+
+
+
